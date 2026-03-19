@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | SRINESH Gaming Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="scanlines"></div>
+
+<nav class="nav">
+  <div class="nav-logo">SRINESH<span class="accent">.</span>EXE</div>
+  <ul class="nav-links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="projects.html">PROJECTS</a></li>
+    <li><a href="contact.html" class="active">CONTACT</a></li>
+  </ul>
+  <div class="nav-status"><span class="dot"></span>ONLINE</div>
+</nav>
+
+<section class="page-hero">
+  <div class="grid-overlay"></div>
+  <div class="page-hero-content">
+    <div class="hero-tag">// SEND A MESSAGE</div>
+    <h1>GET IN <span class="accent">TOUCH</span></h1>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h2>LET'S BUILD<br/>SOMETHING <span class="accent">EPIC</span></h2>
+      <p>Whether you have a project idea, a collaboration in mind, or just want to talk games and code — my DMs are open.</p>
+
+      <div class="contact-links">
+        <a href="mailto:srinesh155@gmail.com" class="cl-item">
+          <span class="cl-icon">✉</span>
+          <span>srinesh155@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/srinesh-s-8084762a7" class="cl-item">
+          <span class="cl-icon"><i class="fab fa-linkedin"></i></span>
+          <span>linkedin.com/in/srinesh</span>
+        </a>
+        <a href="https://github.com/SRI2003-S" class="cl-item">
+          <span class="cl-icon"><i class="fab fa-github"></i></span>
+          <span>github.com/SRI2003-S</span>
+        </a>
+        <a href="https://www.instagram.com/_sr.i_00" class="cl-item">
+          <span class="cl-icon"><i class="fab fa-instagram"></i></span>
+          <span>_sr.i_00</span>
+        </a>
+      </div>
+
+      <div class="availability">
+        <div class="av-dot"></div>
+        <span>Available for internships &amp; freelance projects</span>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>YOUR NAME</label>
+          <input type="text" placeholder="Player One" required />
+        </div>
+        <div class="form-group">
+          <label>EMAIL</label>
+          <input type="email" placeholder="you@domain.com" required />
+        </div>
+        <div class="form-group">
+          <label>SUBJECT</label>
+          <input type="text" placeholder="Mission briefing..." />
+        </div>
+        <div class="form-group">
+          <label>MESSAGE</label>
+          <textarea rows="5" placeholder="Describe your quest..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">
+          <span class="btn-text">SEND MESSAGE</span>
+          <span class="btn-icon">→</span>
+        </button>
+        <div class="form-success" id="formSuccess">
+          ✅ Message sent! I'll respond within 24 hours.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© 2024 GAURAV.EXE — ALL RIGHTS RESERVED</span>
+    <span class="accent">GAME ON.</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
